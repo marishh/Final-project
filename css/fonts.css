@@ -1,0 +1,157 @@
+/*@font-face {
+    font-family: 'TestGeograph-BoldItalic';
+    src: url('../fonts/TestGeograph-BoldItalic.eot');
+    src: url('../fonts/TestGeograph-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TestGeograph-BoldItalic.woff') format('woff'),
+        url('../fonts/TestGeograph-BoldItalic.ttf') format('truetype'),
+        url('../fonts/TestGeograph-BoldItalic.svg#TestGeograph-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: 'TestGeograph-Medium';
+    src: url('../fonts/TestGeograph-Medium.eot');
+    src: url('../fonts/TestGeograph-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Medium.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Medium.woff') format('woff'),
+        url('../fonts/TestGeograph-Medium.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Medium.svg#TestGeograph-Medium') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TestGeograph-Light';
+    src: url('../fonts/TestGeograph-Light.eot');
+    src: url('../fonts/TestGeograph-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Light.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Light.woff') format('woff'),
+        url('../fonts/TestGeograph-Light.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Light.svg#TestGeograph-Light') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('../fonts/TestGeograph-BlackItalic.eot');
+    src: url('../fonts/TestGeograph-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-BlackItalic.woff2') format('woff2'),
+        url('../fonts/TestGeograph-BlackItalic.woff') format('woff'),
+        url('../fonts/TestGeograph-BlackItalic.ttf') format('truetype'),
+        url('../fonts/TestGeograph-BlackItalic.svg#TestGeograph-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}*/
+
+/*@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('../fonts/TestGeograph-LightItalic.eot');
+    src: url('../fonts/TestGeograph-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-LightItalic.woff2') format('woff2'),
+        url('../fonts/TestGeograph-LightItalic.woff') format('woff'),
+        url('../fonts/TestGeograph-LightItalic.ttf') format('truetype'),
+        url('../fonts/TestGeograph-LightItalic.svg#TestGeograph-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: 'TestGeograph-Black';
+    src: url('../fonts/TestGeograph-Black.eot');
+    src: url('../fonts/TestGeograph-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Black.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Black.woff') format('woff'),
+        url('../fonts/TestGeograph-Black.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Black.svg#TestGeograph-Black') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TestGeograph-Bold';
+    src: url('../fonts/TestGeograph-Bold.eot');
+    src: url('../fonts/TestGeograph-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Bold.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Bold.woff') format('woff'),
+        url('../fonts/TestGeograph-Bold.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Bold.svg#TestGeograph-Bold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TestGeograph-Regular';
+    src: url('../fonts/TestGeograph-Regular.eot');
+    src: url('../fonts/TestGeograph-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Regular.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Regular.woff') format('woff'),
+        url('../fonts/TestGeograph-Regular.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Regular.svg#TestGeograph-Regular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('../fonts/TestGeograph-RegularItalic.eot');
+    src: url('../fonts/TestGeograph-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-RegularItalic.woff2') format('woff2'),
+        url('../fonts/TestGeograph-RegularItalic.woff') format('woff'),
+        url('../fonts/TestGeograph-RegularItalic.ttf') format('truetype'),
+        url('../fonts/TestGeograph-RegularItalic.svg#TestGeograph-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+*/
+@font-face {
+    font-family: 'TestGeograph-Thin';
+    src: url('../fonts/TestGeograph-Thin.eot');
+    src: url('../fonts/TestGeograph-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TestGeograph-Thin.woff2') format('woff2'),
+        url('../fonts/TestGeograph-Thin.woff') format('woff'),
+        url('../fonts/TestGeograph-Thin.ttf') format('truetype'),
+        url('../fonts/TestGeograph-Thin.svg#TestGeograph-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('TestGeograph-ThinItalic.eot');
+    src: url('TestGeograph-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('TestGeograph-ThinItalic.woff2') format('woff2'),
+        url('TestGeograph-ThinItalic.woff') format('woff'),
+        url('TestGeograph-ThinItalic.ttf') format('truetype'),
+        url('TestGeograph-ThinItalic.svg#TestGeograph-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}*/
+
+/*@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('TestGeograph-MediumItalic.eot');
+    src: url('TestGeograph-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('TestGeograph-MediumItalic.woff2') format('woff2'),
+        url('TestGeograph-MediumItalic.woff') format('woff'),
+        url('TestGeograph-MediumItalic.ttf') format('truetype'),
+        url('TestGeograph-MediumItalic.svg#TestGeograph-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+*/
