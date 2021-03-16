@@ -16,116 +16,175 @@
 }
 /*SIZES*/
 .s45{
-	font-size: 45px;
+  font-size: 45px;
 }
 .s40{
-	font-size: 38px;
+  font-size: 38px;
 }
 .s35{
-	font-size: 35px;
+  font-size: 35px;
 }
 .s30{
-	font-size: 30px;
+  font-size: 30px;
 }
 .s28{
-	font-size: 28px;
+  font-size: 28px;
 }
 .s25{
-	font-size: 25px;
+  font-size: 25px;
 }
 .s20{
-	font-size: 20px;
+  font-size: 20px;
 }
 .s15{
-	font-size: 15px;
+  font-size: 15px;
 }
 /*letter spacing*/
 .ls40{
-	letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 .ls30{
-	letter-spacing: 1.4px;
+  letter-spacing: 1.4px;
 }
 .ls20{
-	letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 .blackc{
-	color: black;
+  color: black;
 }
 .whitec{
-	color: white;
+  color: white;
 }
 p, h3, h1, h2, h4, h5, h6{
-	line-height: 1.2;
+  line-height: 1.2;
 }
 /*vso*/
 header{
-	padding-top: 23px;
-	padding-bottom: 23px;
-	
-	/*position: fixed;*/
-	top: 0;
-	left: 0;
-	
-	/*z-index: 10;*/
-	background-color: white;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  
+  /*z-index: 10;*/
+  background-color: white;
+}
+.header-color-change{
+  background-color: black;
+}
+.header-color-change-white{
+  background-color: white;
+}
+.list-1  li {
+  display: flex;
+  margin-bottom:  25px;
+}
+.list-1  li  i{
+  margin-right: 10px;
+}
+.fa-chevron-down{
+  margin-left: 10px;
 }
 .header{
-	max-width: 1088px;
-	width: 80%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 auto;
+  max-width: 1088px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header-menu{
+  max-width: 1088px;
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+}
+.head-menu{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.list-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.collapsible {
+  cursor: pointer;
+  display: flex;
+}
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: none;
+  flex-direction: column;
+}
+.content a{
+  margin-bottom: 10px;
+}
+
+.display-none{
+  display: none;
+}
+.display-block{
+  display: block;
+}
+.display-flex{
+  display: flex;
 }
 /*body{
-	padding-top: 80px;
-}*/
-.ul{
-	width: 399px;
-	display: flex;
-	justify-content: space-between;
+  padding-top: 80px;
+}
+*/.ul{
+  width: 399px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.f{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
 .list-0{
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
-.fa-heart{
-	font-size: 20px;
-}
-.menu{
-	display: none;
-	font-size: 30px;
-	color: #a8323e;
+.mobile-menu{
+  display: none;
+  font-size: 30px;
+  color: black;
 }
 
-.logoo img{
-	width: 100%;
+/*.logoo img{
+  width: 100%;
 }
 .mom{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.divv,.test-1{
-	width: 60%;
-	display: flex;
-	justify-content: space-between;
-}
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}*/
+/*.divv,.test-1{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}*/
 
-.icon{
-	color: #3D58A6;
-	font-size: 35px;
+/*.icon{
+  color: #3D58A6;
+  font-size: 35px;
 }
 .icon::after{
-	content: ' ';
+  content: ' ';
     width: 2px;
     height: 26.67px;
     background-color: #363E97;
     margin-left: 30px;
     display: inline-block;
-}
+}*/
+
+
 /*SECTION 1*/
 .s1-1{
 	background-image: url('../img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg');
@@ -359,4 +418,8 @@ footer{
 
 button:hover{
 	background-color: black;
+}
+/*MENU*/
+.open-menu{
+	
 }
