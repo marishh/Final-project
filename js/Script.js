@@ -5,35 +5,13 @@ AOS.init({
     duration: 900 // values from 0 to 3000, with step 50ms
 });
 
-// $("#burger-menu").on("click", function(){
-//     // $("#menu").toggleClass("open-menu");
-//     $("header").toggleClass("bgcolorblack");
-// 	$(".logo a").toggleClass("changetowhite");
-// 	$(".todisappear").toggleClass("disappear-menu");
-// 	$(".toappear").toggleClass("appear-menu");
-//   })
+
 $(".normal-menu").on("click", function(){
     // $("#menu").toggleClass("open-menu");
     $("header").toggleClass("header-color-change");
 	$(".header-menu").toggleClass("display-block");
 	$(".header").toggleClass("display-none");
-	// $(".toappear").toggleClass("appear-menu");
   })
-// $(".read-more-button").on("click", function(){
-//     // $("#menu").toggleClass("open-menu");
-//     $("header").toggleClass("header-color-change");
-// 	$(".header-menu").toggleClass("display-block");
-// 	$(".header").toggleClass("display-none");
-// 	// $(".toappear").toggleClass("appear-menu");
-//   })
-// $("#exit-menu").on("click", function(){
-//     // $("#menu").toggleClass("open-menu");
-//     $("header").toggleClass("header-color-change-white");
-//     $(".header-menu").toggleClass("display-none");
-// 	$(".header").toggleClass("display-flex");
-// 	// $(".todisappear").toggleClass("disappear-menu");
-// 	// $(".toappear").toggleClass("appear-menu");
-//   })
 // var coll = document.getElementsByClassName("collapsible");
 // var i;
 
@@ -57,8 +35,33 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.display == "flex") {
       content.style.display = "none";
+      this.getElementsByClassName("change-button-state")[0].classList.remove("fa-chevron-up");
+      this.getElementsByClassName("change-button-state")[0].classList.toggle("fa-chevron-down");
     } else {
+      this.getElementsByClassName("change-button-state")[0].classList.remove("fa-chevron-down");
+      this.getElementsByClassName("change-button-state")[0].classList.toggle("fa-chevron-up");
       content.style.display = "flex";
+      // this.nextElementSibling.toggleClass("column-view");
+    }
+  });
+}
+var coll3 = document.getElementsByClassName("collapsible-3");
+var z;
+
+for (z = 0; z < coll3.length; z++) {
+  coll3[z].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content3 = this.nextElementSibling;
+    if (content3.style.display == "flex") {
+      content3.style.display = "none";
+      this.getElementsByClassName("change-button-state")[0].classList.remove("fa-chevron-up");
+      this.getElementsByClassName("change-button-state")[0].classList.toggle("fa-chevron-down");
+      this.getElementsByClassName("paragraph-to-disappear")[0].style.display = "block";
+    } else {
+      content3.style.display = "flex";
+      this.getElementsByClassName("change-button-state")[0].classList.remove("fa-chevron-down");
+      this.getElementsByClassName("change-button-state")[0].classList.toggle("fa-chevron-up");
+      this.getElementsByClassName("paragraph-to-disappear")[0].style.display = "none";
       // this.nextElementSibling.toggleClass("column-view");
     }
   });
@@ -71,11 +74,36 @@ for (j = 0; j < coll2.length; j++) {
   coll2[j].addEventListener("click", function() {
     this.classList.toggle("active");
     var content2 = this.nextElementSibling;
-    // if (content.style.display == "flex") {
-    //   content.style.display = "none";
-    // } else {
     content2.style.display = "block";
     this.classList.toggle("display-none");
       // this.nextElementSibling.toggleClass("column-view");
   });
 }
+
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+// var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("navbar").style.top = "0";
+//   } else {
+//     document.getElementById("navbar").style.top = '50px';
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
+// -$("#navbar").height()
+
+
+
+// NAVBAR
+// var lastScrollTop = 0;
+
+// $(window).scroll(function () {
+
+// var st = $(this).scrollTop();
+//         if (st < lastScrollTop){
+//             $('#navbar ').fadeIn();
+//         } else {
+//           $('#navbar ').fadeOut();
+//         }
+//         lastScrollTop = st;
+//   })

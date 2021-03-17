@@ -73,6 +73,13 @@ header{
   /*z-index: 10;*/
   background-color: white;
 }
+/*#navbar{
+	transition: top 0.3s;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}*/
 .header-color-change{
   background-color: black;
 }
@@ -606,4 +613,35 @@ button:hover{
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+}
+/*discoveries page*/
+.s4-1{
+	background-image: url('../img/Group 85.jpg');
+	
+	padding-top: 190px;
+	padding-bottom: 33px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.text-1{
+	width: 50%;
+}
+.collapsible-3 {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.div-3{
+	display: flex;
+	align-items: center;
+}
+.same-sections{
+	margin-top: 100px;
+}
+.paragraph-to-disappear{
+	margin-top: 20px;
+}
+.change-button-state{
+	margin-right: 6px;
+	margin-left: 6px;
 }
