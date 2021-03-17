@@ -19,6 +19,13 @@ $(".normal-menu").on("click", function(){
 	$(".header").toggleClass("display-none");
 	// $(".toappear").toggleClass("appear-menu");
   })
+// $(".read-more-button").on("click", function(){
+//     // $("#menu").toggleClass("open-menu");
+//     $("header").toggleClass("header-color-change");
+// 	$(".header-menu").toggleClass("display-block");
+// 	$(".header").toggleClass("display-none");
+// 	// $(".toappear").toggleClass("appear-menu");
+//   })
 // $("#exit-menu").on("click", function(){
 //     // $("#menu").toggleClass("open-menu");
 //     $("header").toggleClass("header-color-change-white");
@@ -54,5 +61,21 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "flex";
       // this.nextElementSibling.toggleClass("column-view");
     }
+  });
+}
+// read more button??
+var coll2 = document.getElementsByClassName("read-more-button");
+var j;
+
+for (j = 0; j < coll2.length; j++) {
+  coll2[j].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content2 = this.nextElementSibling;
+    // if (content.style.display == "flex") {
+    //   content.style.display = "none";
+    // } else {
+    content2.style.display = "block";
+    this.classList.toggle("display-none");
+      // this.nextElementSibling.toggleClass("column-view");
   });
 }

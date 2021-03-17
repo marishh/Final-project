@@ -14,6 +14,9 @@
 .thin{
 	font-family: 'TestGeograph-Thin';
 }
+.light{
+	font-family: 'TestGeograph-Light';
+}
 /*SIZES*/
 .s45{
   font-size: 45px;
@@ -55,7 +58,7 @@
 .whitec{
   color: white;
 }
-p, h3, h1, h2, h4, h5, h6{
+p, h3, h1, h2, h4, h5, h6, article{
   line-height: 1.2;
 }
 /*vso*/
@@ -411,7 +414,20 @@ footer{
 .underline:hover:after {
 	width: 100%;
 }
-
+.underline-without-hover{
+	position: relative;
+	padding-bottom:5px;
+}
+.underline-without-hover:after {
+	content: ' ';
+	position: absolute;
+	bottom: 0;
+	left:0;
+	background-color: #AD0707;
+	height: 3px;
+	width: 100%;
+	transition:all 0.2s linear;
+}
 .socmedia i:hover{
 	color: black;
 }
@@ -521,4 +537,73 @@ button:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+/*PAGE 3 PHYSICS*/
+.s3-1{
+	background-image: url('../img/Group 83.jpg');
+	
+	padding-top: 200px;
+	padding-bottom: 80px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*.s3-2{
+	background-color: #F5FAFA;
+	margin-top: 33px;
+}*/
+.inline-block{
+	display: inline-block;
+}
+.article-1{
+	margin-top: 33px;
+}
+.s3-3{
+	margin-top: 70px;
+}
+.marg{
+	margin-top: 27px;
+	margin-bottom: 70px;
+}
+.img{
+	width: 30%;
+	float: right;
+	margin-left: 10px;
+}
+.img img, .img-2 img{
+	width: 100%;
+	
+}
+.img-2{
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+}
+/*.article-and-image{
+	display: flex;
+}*/
+/*.article-and-image article{
+	width: 60%;
+}*/
+.content-1{
+	display: none;
+}
+.read-more-b{
+	border-radius: 20px;
+	background-color: #AD0707;
+	text-align: center;
+	height: 40px;
+	outline: none;
+	width: 100%;
+	border: none;
+}
+.read-more-button{
+	width: 20%;
+}
+.f-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
