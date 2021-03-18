@@ -645,3 +645,131 @@ button:hover{
 	margin-right: 6px;
 	margin-left: 6px;
 }
+/*contact*/
+.contact-div{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.form-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.contact-div-1{
+	max-width: 720px;
+	width: 66%;
+}
+.contact-inputs{
+	height: 60px;
+	width: 100%;
+	font-family: 'TestGeograph-Regular';
+	font-size: 15px;
+	padding-left: 20px;
+	margin-bottom: 16px;
+	background-color: #FFFFFF;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
+textarea{
+	width: 100%;
+	resize: none;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-family: 'TestGeograph-Regular';
+	font-size: 15px;
+	height: 288px;
+	background-color: #FFFFFF;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
+.contact-div-2{
+	display: flex;
+	flex-direction: column;
+	max-width: 352px;
+	width: 32%;
+}
+/*.contact-inputs{
+	height: 60px;
+	font-family: 'Poppins medium';
+	font-size: 13px;
+	padding-left: 20px;
+	margin-bottom: 16px;
+	background-color: #F8F8F8;
+	border: 2px solid #E8E8E8;
+	outline: none;
+}*/
+/*.contact-inputs::placeholder, textarea::placeholder{
+	color: #CECECE;
+	font-family: 'Poppins medium';
+	font-size: 13px;
+	margin: 0 auto;
+}*/
+/*.fa-paper-plane{
+	height: 16px;
+	width: auto;
+	margin-left: 10px;
+}*/
+.contact-form-box{
+	margin-top: 52px;
+	display: flex;
+	justify-content: space-between;
+}
+.line{
+	height: 2px;
+	background-color: #878787;
+	width: 9%;
+	margin-bottom: 23px;
+}
+.contact-div .socmedia .fa-twitter{
+	margin-left: 0px;
+}
+/*COMING SOON*/
+.coming-soon-div{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.cogs{
+	width: 40%;
+	height: 300px;
+	position: relative;
+}
+.big-cog{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	top: 0;
+	right: 50px;
+}
+
+.medium-cog{
+	position: absolute;
+	top: 200px;
+	width: 100px;
+	height: auto;
+	right: 0;
+}
+.spin{
+	animation:spin 10s linear infinite;
+}
+.spin-back{
+	animation:spin-back 10s linear infinite;
+}
+@keyframes spin {
+	 100% {transform:rotate(360deg); } 
+	}
+@keyframes spin-back {
+	 100% {transform:rotate(-360deg); } 
+	}
+.c .socmedia .fa-twitter{
+	margin-left: 0px;
+}
+.c{
+	margin-bottom: 70px;
+}
