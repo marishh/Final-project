@@ -79,6 +79,21 @@
 		width: 30%;
 		margin:15px;
 	}
+	.contact-form-box{
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-div h3{
+		text-align: center;
+	}
+	.contact-div-2{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.contact-div-1{
+		width: 100%;
+	}
 }
 @media (max-width: 661px){
 	.p-2, .to-shrink{
