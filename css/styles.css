@@ -246,15 +246,17 @@ header{
 }
 .img1{
 	height: 295px;
-	background-image: url('../img/national-cancer-institute-kCXvthZgtvA-unsplash.jpg');
+	background-image: url('../img/Group 86.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .img2{
 	height: 295px;
 	background-image: url('../img/HeLa Cell 1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .div1-2-1-img img{
 	max-width: 100%;
@@ -567,23 +569,46 @@ button:hover{
 }
 .s3-3{
 	margin-top: 70px;
+	margin-bottom: 90px;
 }
+.read-more-specific{
+	border-radius: 20px;
+	background-color: #AD0707;
+	text-align: center;
+	width: 20%;
+	height: 40px;
+	outline: none;
+	border: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
 .marg{
 	margin-top: 27px;
 	margin-bottom: 70px;
 }
 .img{
+	height: 200px;
+	background-image: url("../img/Higgs_Ledefullwidth.jpg");
 	width: 30%;
 	float: right;
 	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.img img, .img-2 img{
+/*.img img, .img-2 img{
 	width: 100%;
 	
-}
+}*/
 .img-2{
+	background-image: url("../img/light-img3.gif");
+	height: 200px;
 	width: 30%;
 	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
 	margin-right: 10px;
 }
 /*.article-and-image{
@@ -773,3 +798,32 @@ textarea{
 .c{
 	margin-bottom: 70px;
 }
+/*SLICK*/
+.slick-prev:before, .slick-next:before{
+	color: black !important;
+	opacity: 0.8 !important;
+}
+.slider {
+    display: flex;
+    width: 100%;
+}
+.slider .slider_item {
+    width: 30%;
+    height: 200px;
+    margin:30px;
+}
+.slider .slider_item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/*.slick-active { 
+  padding: 20px 0; 
+}
+*/
+.slick-center { 
+  transform: scale(1.3) 
+}
+

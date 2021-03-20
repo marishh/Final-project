@@ -2,7 +2,7 @@
 AOS.init({
     offset: 0, // offset (in px) from the original trigger point
     delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 900 // values from 0 to 3000, with step 50ms
+    duration: 1300 // values from 0 to 3000, with step 50ms
 });
 
 
@@ -107,3 +107,34 @@ for (j = 0; j < coll2.length; j++) {
 //         }
 //         lastScrollTop = st;
 //   })
+// slick
+$(function(){
+   $('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  dots: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 590,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+});
+

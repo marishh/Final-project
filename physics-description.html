@@ -8,12 +8,20 @@
 	<meta property="og:description" content="Typography" />
 	<meta property="og:image" content="images/0.jpg" />
 	<title> The Map of Science </title>
+
 	<meta charset="utf-8">
+
 	<script src="https://kit.fontawesome.com/abcc4872e5.js" crossorigin="anonymous"></script>
 	<link rel="icon" href="images/pc.png" type="image/gif" sizes="16x16">
+
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> -->
+    <link href="http://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
@@ -148,9 +156,29 @@
             <article class="article-1 blackc regular s28">Physics, science that deals with the structure of matter and the interactions between the fundamental constituents of the observable universe. In the broadest sense, physics (from the Greek physikos) is concerned with all aspects of nature on both the macroscopic and submicroscopic levels. Its scope of study encompasses not only the behaviour of objects under the action of given forces but also the nature and origin of gravitational, electromagnetic, and nuclear force fields. Its ultimate objective is the formulation of a few comprehensive principles that bring together and explain all such disparate phenomena.</article>
         </section>
         <section class="s3-3 mom" data-aos="fade-in">
-             <div><h2 class="blackc s35 medium underline-without-hover inline-block"> The Scope Of Physics</h2></div>
+             <div><h2 class="blackc s35 medium underline-without-hover inline-block"> The Scope Of Physics</h2>
+             </div>
              <p class="s30 blackc light marg">The traditionally organized branches or fields of classical and modern physics are delineated below.</p>
-             <div class="carousel"></div>
+                 <div id="slick">
+                     <div class="slider center">
+                        <div class="slider_item">
+                            <img src="https://www.w3schools.com/css/img_5terre.jpg">
+                        </div>
+                        <div class="slider_item">
+                            <img src="https://www.w3schools.com/w3css/img_forest.jpg">
+                        </div>
+                        <div class="slider_item">
+                            <img src="https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/e4cfdce8-9055-e10f-c0ee-c61c8c29fbdf/630x355.jpg">
+                        </div>
+                        <div class="slider_item">
+                            <img src="https://lp-cms-production.imgix.net/features/2015/12/Riomaggiore_cs.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850">
+                        </div>
+                        <div class="slider_item">
+                            <img src="https://www.w3schools.com/css/img_5terre.jpg">
+                        </div>
+                     </div>
+                 </div>
+                 <button class="read-more-specific"><a href="#" class="s20 regular whitec">Explore</a></button>
         </section>
         <section class="s3-4 mom" data-aos="fade-in">
             <div class="text-middle"><h2 class="blackc s35 medium underline-without-hover inline-block">Amazing Discoveries</h2></div>
@@ -158,7 +186,7 @@
             <h4 class="s20 blackc regular paragraphs">Elementary particles gain their mass from a fundamental field associated with the Higgs boson.</h4>
             <h3 class="s20 blackc medium paragraphs">The Brout-Englert-Higgs mechanism</h3>
             <div class="article-and-image">
-                <div class="img"><img src="img/Higgs_Ledefullwidth.jpg" alt="higgs boson"></div>
+                <div class="img"><!-- <img src="img/Higgs_Ledefullwidth.jpg" alt="higgs boson"> --></div>
                 <article>
                     <p class="paragraphs s20 light">In 2012, particles smashed together in the Large Hadron Collider’s 27-kilometer circular tunnel conjured up the Higgs boson — the last missing particle predicted by the Standard Model of particle physics, and the linchpin that holds that decades-old set of equations together.</p>
                     <p class="paragraphs s20 light">But no other new particles have materialized at the LHC, leaving open many mysteries about the universe that the Standard Model doesn’t address. A debate has ensued over whether to build an even more enormous successor to the LHC — a proposed machine 100 kilometers in circumference, possibly in Switzerland or China — to continue the search for new physics.</p>
@@ -178,7 +206,7 @@
 
             <h3 class="s35 blackc black paragraphs">Slow Light</h3>
             <div class="article-and-image">
-                <div class="img-2"><img src="img/light-img3.gif" alt="slow light"></div>
+                <div class="img-2"><!-- <img src="img/light-img3.gif" alt="slow light"> --></div>
                 <article>
                     <p class="paragraphs s20 light">Light moves with speed c in a vacuum. But light can move with a speed less than c, when it passes through some material. The table shows the speed of light when it goes through glass, water, and air. Note that in this table the speed of light in each material is given as a decimal times the speed of light in a vacuum.</p>
                     <p class="paragraphs s20 light">In certain exotic materials light can move much slower than c, and in some cases can even be brought entirely to a halt. Light has been slowed to one mile per hour (.0000000015c) in an unusual form of matter known as a Bose Einstein Condensate (BEC). And in 2001, physicists for the first time managed to stop light in a vapor of rubidium gas.</p>
@@ -211,7 +239,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript" src="js/Script.js"></script>
 </body>
