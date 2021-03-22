@@ -796,7 +796,8 @@ textarea{
 	margin-left: 0px;
 }
 .c{
-	margin-bottom: 70px;
+	padding-bottom: 30px;
+	margin-top: 90px;
 }
 /*SLICK*/
 .slick-prev:before, .slick-next:before{
@@ -812,6 +813,66 @@ textarea{
     height: 200px;
     margin:30px;
 }
+.slider-1{
+	background-image: url("../img/Group 01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
+.slider-2{
+	background-image: url("../img/Group 02.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
+.slider-3{
+	background-image: url("../img/Group 03.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
+.slider-4{
+	background-image: url("../img/condmat.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
+.slider-5{
+	background-image: url("../img/optics.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
+.slider-6{
+	background-image: url("../img/HAtomOrbitals.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-left: 20px;
+	width: 100%;
+    height: 200px;   
+}
 .slider .slider_item img {
     width: 100%;
     height: 100%;
@@ -826,4 +887,6 @@ textarea{
 .slick-center { 
   transform: scale(1.3) 
 }
-
+*:focus {
+    outline: none;
+}
