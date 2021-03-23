@@ -169,8 +169,11 @@ header{
   display: none;
   font-size: 30px;
   color: black;
+  cursor: pointer;
 }
-
+.normal-menu{
+	cursor: pointer;
+}
 /*.logoo img{
   width: 100%;
 }
