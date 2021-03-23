@@ -126,7 +126,7 @@ $(function(){
       }
     },
     {
-      breakpoint: 590,
+      breakpoint: 527,
       settings: {
         arrows: false,
         centerMode: true,

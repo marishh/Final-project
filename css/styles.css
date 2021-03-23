@@ -806,8 +806,8 @@ textarea{
     width: 100%;
 }
 .slider .slider_item {
-    width: 40%;
-    height: 200px;
+   /* width: 40%;*/
+   /* height: 200px;*/
     margin:30px;
 }
 .slider-1{
@@ -861,7 +861,7 @@ textarea{
     height: 200px;   
 }
 .slider-6{
-	background-image: url("../img/HAtomOrbitals.png");
+	background-image: url("../img/HAtomOrbitals.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
