@@ -212,6 +212,10 @@ header{
 	padding-right:139px;*/
 	padding-top: 240px;
 	padding-bottom: 240px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .div1-1, .div1-2{
 	max-width: 1088px;
@@ -886,4 +890,15 @@ textarea{
 }
 *:focus {
     outline: none;
+}
+.vh{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.h{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
