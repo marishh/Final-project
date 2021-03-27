@@ -316,6 +316,9 @@
 	}
 }
 @media (max-width: 439px){
+	.f .content .s20{
+		font-size: 13px;
+	}
 	.s25{
 		font-size: 15px;
 	}
