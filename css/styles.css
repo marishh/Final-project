@@ -765,7 +765,7 @@ textarea{
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 }
 .cogs{
 	width: 40%;
@@ -803,8 +803,8 @@ textarea{
 	margin-left: 0px;
 }
 .c{
-	padding-bottom: 30px;
-	margin-top: 90px;
+	margin-bottom: 30px;
+	/*margin-top: 90px;*/
 }
 /*SLICK*/
 .slick-prev:before, .slick-next:before{
@@ -898,7 +898,16 @@ textarea{
 }
 .h{
 	height: 100%;
+	padding-top: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.invisible{
+	visibility: hidden;
+	margin-bottom:  auto;
+}
+.e{
+	padding-bottom: 0px;
+	margin-top: auto;
 }
