@@ -204,7 +204,7 @@ header{
 
 /*SECTION 1*/
 .s1-1{
-	background-image: url('../img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg');
+	background-image: url('../img/ramo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -212,7 +212,7 @@ header{
 	padding-right:139px;*/
 	padding-top: 240px;
 	padding-bottom: 240px;
-	height: 100vh;
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

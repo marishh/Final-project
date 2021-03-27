@@ -102,9 +102,9 @@
 	.s30{
 		font-size: 28px;
 	}
-	.s1-1{
+	/*.s1-1{
 		background-position:30% 50%;
-	}
+	}*/
 	.submit{
 		font-size: 15px;
 	}
@@ -307,6 +307,9 @@
 	}
 	.read-more{
 		width: 50%;
+	}
+	.s1-1{
+		height: 70vh;
 	}
 }
 @media (max-width: 439px){
