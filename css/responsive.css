@@ -243,6 +243,9 @@
 	}
 }
 @media (max-width: 480px){
+	.underline:hover:after {
+	width: 0%;
+	}
 	.img1, .img2{
 		height: 200px;
 		margin-bottom: 20px;
