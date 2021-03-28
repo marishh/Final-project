@@ -428,9 +428,19 @@ footer{
 .underline:hover:after {
 	width: 100%;
 }
-.underline-without-hover{
+.underline-without-hover, .later-to-appear-underline{
 	position: relative;
 	padding-bottom:5px;
+}
+.later-to-appear-underline:after{
+	content: ' ';
+	position: absolute;
+	bottom: 0;
+	left:0;
+	background-color: #AD0707;
+	height: 3px;
+	width: 0%;
+	transition:all 0.2s linear;
 }
 .underline-without-hover:after {
 	content: ' ';
@@ -564,10 +574,16 @@ button:hover{
 	background-size: cover;
 	background-position: center;
 }
-/*.s3-2{
-	background-color: #F5FAFA;
-	margin-top: 33px;
-}*/
+.s5-1{
+	background-image: url('../img/etienne-desclides-UlitWCznbIg-unsplash.jpg');	
+}
+.s6-1{
+	background-image: url('../img/optics.jpg');	
+}
+.s4-2{
+	/*background-color: #F5FAFA;*/
+	margin-bottom:  33px;
+}
 .inline-block{
 	display: inline-block;
 }
@@ -588,6 +604,7 @@ button:hover{
 	border: none;
 	margin: 0 auto;
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 .marg{
@@ -603,6 +620,19 @@ button:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+.mag-img{
+	height: 200px;
+	background-image: url("../img/Neutron_spin_dipole_field.jpg");
+	width: 30%;
+	float: right;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.opt-img{
+	background-image: url("../img/jpk1.jpg");
 }
 /*.img img, .img-2 img{
 	width: 100%;
@@ -821,7 +851,7 @@ textarea{
     display: flex;
     width: 100%;
 }
-.slider .slider_item {
+.slider .slider-item {
    /* width: 40%;*/
    /* height: 200px;*/
     margin:30px;
