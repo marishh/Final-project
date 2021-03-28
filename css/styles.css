@@ -677,6 +677,12 @@ button:hover{
 	margin-right: 6px;
 	margin-left: 6px;
 }
+.float-right{
+	margin-top: 30px;
+	text-align: right;
+	margin-bottom: 30px;
+}
+
 /*contact*/
 .contact-div{
 	padding-top: 50px;
