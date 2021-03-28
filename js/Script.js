@@ -12,20 +12,7 @@ $(".normal-menu").on("click", function(){
 	$(".header-menu").toggleClass("display-block");
 	$(".header").toggleClass("display-none");
   })
-// var coll = document.getElementsByClassName("collapsible");
-// var i;
 
-// for (i = 0; i < coll.length; i++) {
-//   coll[i].addEventListener("click", function() {
-//     // this.classList.toggle("active");
-//     var content = document.getElementsByClassName('content');
-//     if (content[i].style.display === "block") {
-//       content[i].style.display = "none";
-//     } else {
-//       content[i].style.display = "block";
-//     }
-//   });
-// }
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -80,6 +67,7 @@ for (j = 0; j < coll2.length; j++) {
   });
 }
 
+
 // var prevScrollpos = window.pageYOffset;
 // window.onscroll = function() {
 // var currentScrollPos = window.pageYOffset;
@@ -93,20 +81,6 @@ for (j = 0; j < coll2.length; j++) {
 // -$("#navbar").height()
 
 
-
-// NAVBAR
-// var lastScrollTop = 0;
-
-// $(window).scroll(function () {
-
-// var st = $(this).scrollTop();
-//         if (st < lastScrollTop){
-//             $('#navbar ').fadeIn();
-//         } else {
-//           $('#navbar ').fadeOut();
-//         }
-//         lastScrollTop = st;
-//   })
 // slick
 $(function(){
    $('.center').slick({
@@ -137,4 +111,22 @@ $(function(){
   ]
 });
 });
+
+// Explore Button
+// MUSHAOBSSSSSSSSSSSSS
+function changelink(){
+	// if(document.readyState === 'loaded') {
+	  // document.getElementById("rms").addEventListener("mouseover", function() {
+		var cna=document.getElementsByClassName("slick-center")[0];
+		var cname=cna.firstElementChild.className;
+		// document.getElementById("demo").innerHTML = cname; 
+		if (cname==="slider-1"){
+			window.location.href="magnetism.html";
+		} else if (cname==="slider-5"){
+			window.location.href="optics.html";
+		} else {
+			window.location.href="comingsoon.html";
+		}
+}
+
 
