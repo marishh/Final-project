@@ -947,3 +947,6 @@ textarea{
 	padding-bottom: 0px;
 	margin-top: auto;
 }
+button{
+	cursor: pointer;
+}
