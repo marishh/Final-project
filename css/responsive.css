@@ -379,6 +379,15 @@
 		right: 20px;
 		width: 130px;
 	}
+	.header, .header-menu, .div1-1, .div1-2, .h11, .h33, .s1-4, .foot, .mom-2, .mom, .coming-soon-div{
+		width: 90%;
+	}
+	.s2-1, .s2-2, .s2-3, .s2-4, .s2-5, .s2-6, .s2-7 {
+		height: 70vh;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	}
 }
 @media (max-width: 397px){
 	.mom-2 .s40 {
