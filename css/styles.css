@@ -716,7 +716,7 @@ button:hover{
 /*contact*/
 .contact-div{
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 .form-box{
 	display: flex;
@@ -950,3 +950,7 @@ textarea{
 button{
 	cursor: pointer;
 }
+/*@keyframes fadein{
+	0% {opacity:0;}
+	100% {opacity:1;}
+}*/
