@@ -44,6 +44,12 @@
 	.s2-7{
 		background-position: bottom right;
 	}
+	.slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6{
+		padding-left: 10px;
+	}
+	.slider .slider-item {
+		margin:20px;
+	}
 }
 @media (max-width: 838px){
 	.s1-1{
